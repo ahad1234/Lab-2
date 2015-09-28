@@ -1,0 +1,43 @@
+
+h1 {
+  text-align: center;
+  font-family: helvetica
+}
+
+h2 {
+  text-align: center;
+   font-family: helvetica
+}
+
+body {
+  background-color: "White";
+}
+
+img.image {
+
+  display: inline-block;
+  max-width: 100%;
+  max-height: auto; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+  
+
+}
+
+div.gallery{
+  
+  text-align: center;
+  max-width: 100%;
+  
+}
+
+#images div{
+  display:none;
+}
+
+#images div:target{
+  display: block;
+}
+
+
